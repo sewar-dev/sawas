@@ -1,9 +1,0 @@
-name = "your-project-name"
-type = "webpack"
-account_id = "your-cloudflare-account-id"
-zone_id = "your-zone-id" # Optional, only if using a custom domain
-workers_dev = true
-
-[site]
-bucket = "./public" # Path to your static files
-entry-point = "./public" # Entry point for the static site
